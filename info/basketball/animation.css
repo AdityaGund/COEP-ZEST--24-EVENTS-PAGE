@@ -1,0 +1,326 @@
+.animation_start_up {
+
+    z-index: 3;
+    transform: rotateZ(-90deg) translate3d(200px, -200px, 0) scale(0.5);
+
+}
+
+.animation_start_below {
+    transform: rotateZ(-7deg) translateY(150px) scale(0.78);
+
+}
+
+.animation_end_below {
+    /* transform: rotateZ(-90deg) translate3d(-100px, 100px, 0) scale(0.7); */
+    z-index: 3;
+    transform: rotateZ(-90deg) translate3d(-40px, 106px, 0) scale(0.5s);
+}
+
+.animation_end_up {
+    z-index: 10;
+    transform: rotateZ(0deg);
+    overflow-y: scroll;
+
+
+}
+
+.appereing_card {
+    opacity: 1.0;
+
+    border: 2px solid #494949
+}
+
+
+@media screen and (max-width:769px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .grid {
+        top: 60px;
+    }
+
+    .card {
+        width: 500px;
+        height: 450px;
+        /* overflow-y: scroll; */
+    }
+
+    .first {
+        height: fit-content;
+    }
+
+    .second {
+        height: fit-content;
+    }
+
+    .card_container {
+
+        height: 450px;
+        width: 500px;
+        transform: rotateZ(-90deg) scale(0.5, 0.7) translate3d(-120px, 200px, 0);
+    }
+
+    .third {
+        /* transform: rotateZ(-90deg) scale(0.7) translate3d(-100px, 75px, 0); */
+        height: fit-content;
+    }
+
+
+
+    .animation_start_up {
+
+        transform: rotateZ(-90deg) translate3d(200px, -200px, 0) scale(0.5);
+        z-index: 3;
+
+    }
+
+    .animation_start_below {
+
+        transform: rotateZ(-7deg) translateY(150px) scale(0.78);
+    }
+
+    .animation_end_below {
+        /* transform: rotateZ(-90deg) translate3d(-100px, 100px, 0) scale(0.7); */
+        transform: rotateZ(-90deg) translate3d(-40px, px, 0) scale(0.5s);
+        z-index: 3;
+    }
+
+    .animation_end_up {
+        transform: rotateZ(0deg);
+        z-index: 10;
+
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width:426px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .grid{
+        top: 10px;
+    }
+
+    .card {
+        width: 350px;
+        height: 450px;
+        /* overflow-y: scroll; */
+    }
+
+    .first {
+        height: fit-content;
+    }
+
+    .second {
+        height: fit-content;
+    }
+
+    .card_container {
+
+        height: 450px;
+        width: 350px;
+        transform: rotateZ(-90deg) scale(0.7) translate3d(-100px, 60px, 0);
+    }
+
+    .third {
+        /* transform: rotateZ(-90deg) scale(0.7) translate3d(-100px, 75px, 0); */
+        height: fit-content;
+    }
+
+
+
+    .animation_start_up {
+
+        transform: rotateZ(-90deg) translate3d(200px, -200px, 0) scale(0.5);
+        z-index: 3;
+
+    }
+
+    .animation_start_below {
+
+        transform: rotateZ(-7deg) translateY(150px) scale(0.78);
+    }
+
+    .animation_end_below {
+        /* transform: rotateZ(-90deg) translate3d(-100px, 100px, 0) scale(0.7); */
+        transform: rotateZ(-90deg) translate3d(-40px, px, 0) scale(0.5s);
+        z-index: 3;
+    }
+
+    .animation_end_up {
+        transform: rotateZ(0deg);
+        z-index: 10;
+
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:376px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .grid{
+        top:10px;
+    }
+
+    .card {
+        width: 300px;
+        height: 480px;
+        /* overflow-y: scroll; */
+    }
+
+    .first {
+        height:fit-content;
+    }
+
+    .second {
+        height: fit-content;
+    }
+
+    .card_container {
+
+        height: 480px;
+        width: 300px;
+        transform: rotateZ(-90deg) scale(0.7) translate3d(-100px, 40px, 0);
+    }
+
+    .third {
+        /* transform: rotateZ(-90deg) scale(0.7) translate3d(-100px, 75px, 0); */
+        height: fit-content;
+    }
+
+
+
+    .animation_start_up {
+
+        transform: rotateZ(-90deg) translate3d(200px, -200px, 0) scale(0.5);
+        z-index: 3;
+
+    }
+
+    .animation_start_below {
+
+        transform: rotateZ(-7deg) translateY(150px) scale(0.78);
+    }
+
+    .animation_end_below {
+        /* transform: rotateZ(-90deg) translate3d(-100px, 100px, 0) scale(0.7); */
+        transform: rotateZ(-90deg) translate3d(-40px, px, 0) scale(0.5s);
+        z-index: 3;
+    }
+
+    .animation_end_up {
+        transform: rotateZ(0deg);
+        z-index: 10;
+
+    }
+
+}
+
+
+@media screen and (max-width:321px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .grid{
+    top: -50px;}
+
+    .card {
+        height: 360px;
+        width: 235px;
+        /* overflow-y: scroll; */
+    }
+
+    .first {
+        height: fit-content;
+    }
+
+    .card h2 {
+        font-size: 33px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .second {
+        height: fit-content;
+    }
+
+    .card_container {
+
+        height: 360px;
+        width: 235px;
+        transform: rotateZ(-90deg) scale(0.7) translate3d(-100px, 40px, 0);
+    }
+
+    .third {
+        /* transform: rotateZ(-90deg) scale(0.7) translate3d(-100px, 75px, 0); */
+        height: fit-content;
+    }
+
+    .fourth {
+        height: fit-content;
+    }
+
+
+
+    .animation_start_up {
+
+        transform: rotateZ(-90deg) translate3d(200px, -200px, 0) scale(0.5);
+        z-index: 3;
+
+    }
+
+    .animation_start_below {
+
+        transform: rotateZ(-7deg) translateY(150px) scale(0.78);
+    }
+
+    .animation_end_below {
+        /* transform: rotateZ(-90deg) translate3d(-100px, 100px, 0) scale(0.7); */
+        transform: rotateZ(-90deg) translate3d(-40px, px, 0) scale(0.5s);
+        z-index: 3;
+    }
+
+    .animation_end_up {
+        transform: rotateZ(0deg);
+        z-index: 10;
+
+    }
+
+}

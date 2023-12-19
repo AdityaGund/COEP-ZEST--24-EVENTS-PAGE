@@ -1,0 +1,43 @@
+
+
+
+
+
+
+.bn31 {
+  background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #00a84f;
+  display: inline-block;
+  justify-content: center;
+  height: 40px;
+  font-size: 1em;
+  padding: 3.5px;
+  position: relative;
+  text-decoration: none;
+  width: 110px;
+  z-index: 2;
+  margin: 15px;
+
+  
+}
+
+.bn31:hover {
+  color: #fff;
+}
+
+.bn31 .bn31span {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn31:hover .bn31span {
+  background: transparent;
+}
